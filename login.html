@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Login — Maple Ridge Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">MR</span>
+      <span class="brand-text">Maple Ridge<span>Academy &middot; Est. 1962</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="faculty.html">Faculty</a>
+      <a href="events.html">Events</a>
+      <a href="news.html">News</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="nav-cta active">Portal Login</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="brand-mark" style="font-size: 1.4rem; width: 56px; height: 56px;">MR</div>
+    <h1>Welcome back</h1>
+    <p class="sub">Sign in to access the parent and student portal.</p>
+
+    <div class="role-toggle">
+      <button type="button" class="active">Parent</button>
+      <button type="button">Student</button>
+      <button type="button">Staff</button>
+    </div>
+
+    <form id="login-form">
+      <div class="form-row">
+        <label for="login-email">Email Address</label>
+        <input type="email" id="login-email" name="login-email" required placeholder="you@example.com">
+      </div>
+      <div class="form-row">
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" name="login-password" required placeholder="••••••••">
+      </div>
+      <button type="submit" class="btn btn-primary">Sign In</button>
+    </form>
+
+    <div class="login-links">
+      <a href="#">Forgot your password?</a>
+      <p style="margin-top: 10px; color: var(--sage);">Need an account? <a href="contact.html">Contact the school office</a>.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+      <span>&copy; 2026 Maple Ridge Academy. All rights reserved.</span>
+      <span>Need help? <a href="contact.html" style="color: var(--gold-light);">Contact Portal Support</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
